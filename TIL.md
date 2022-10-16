@@ -27,7 +27,7 @@ public class Store {
     private Item item;
       (...)
 }
-</pre></code>
+</code></pre>
 스프링 컨테이너 객체생성
 <pre><code>ApplicationContext context= new GenericXmlApplicationContext("com/safy/di01/applicationContext.xml");
 Store store = context.getBean("store", Store.class);</code></pre>
